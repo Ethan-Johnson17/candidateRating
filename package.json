@@ -1,0 +1,16 @@
+
+  {
+    "name": "candidaterating",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd candidateRating.client && npm i",
+      "setup:server": "cd candidateRating && npm i",
+      "start": "node candidateRating/index.js"
+    },
+    "engines": {
+      "node": "^18.12.1"
+    }
+  }
+  
